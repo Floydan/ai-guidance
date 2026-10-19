@@ -1,0 +1,14 @@
+id: nordvik
+name: Nordvik Logistics
+sourceControl: ours
+dataPolicy:
+  allowedProviders: [openai, anthropic]
+  benchmarkUse: allowed
+contacts:
+  developer: "[NAME]"
+  pm: "[NAME]"
+repos:
+  - id: nordvik-platform
+    remote: https://dev.azure.com/example/Nordvik/_git/nordvik-platform
+    stacks: [dotnet, react]
+    mainBranch: main
